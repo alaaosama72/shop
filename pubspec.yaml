@@ -1,0 +1,48 @@
+name: shop_app
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.0-271.7.beta <3.0.0'
+dependencies:
+  bloc: ^8.1.0
+  carousel_slider: ^4.1.1
+  cupertino_icons: ^1.0.5
+  dio: ^4.0.6
+  platform: ^3.1.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_conditional_rendering: ^2.0.0
+  flutter_secure_storage: ^5.1.0
+  fluttertoast: ^8.0.9
+  hexcolor: ^2.0.7
+  intl: ^0.17.0
+  shared_preferences: ^2.0.15
+  sizer: ^2.0.15
+  smooth_page_indicator: ^1.0.0+2
+  sqflite: ^2.0.3+1
+  webview_flutter: ^3.0.4
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/icons.ttf
+    - assets/fonts/jannah.ttf
+    - assets/images/appstore.png
+    - assets/images/facebook-logo.png
+    - assets/images/google-logo.png
+    - assets/images/onboard_1.jpg
+    - assets/images/playstore.png
+  fonts:
+    - family: Jannah
+      fonts:
+        - asset: assets/fonts/jannah.ttf
+          weight: 700
+    - family: IconBroken
+      fonts:
+        - asset: assets/fonts/icons.ttf
